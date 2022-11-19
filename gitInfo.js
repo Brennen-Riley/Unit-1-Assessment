@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Git is a version controll system. It allows you to save you're current progress of your code and allows you to upload it to something later. It will also show all the history of all the changes you have made."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "GitHub is a website where it allows people to upload/store their work. GitHub and Git work together and allows you to push stuff from Git Staight to GitHub."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = "The git init command allows you to initialize a local repository in a folder."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = "Git clone allows you to make a full copy of a current repository. It makes it so you can change code in repository and it stays the same in the other."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+let gitStatusDefinition = "It's a command that tells you about the repo you are currently on."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,8 @@
 */
 
 //CODE HERE
+let gitAddDefinition = "It adds files to be tracked. If you don't do this it won't be able to save your work."
+let gitAddCode = git add .
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +71,8 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = "This allows you to create a snapshot of the files you are currently tracking."
+let gitCommitCode = git commit -m "initial commit"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +82,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "Allows you to push a branch from git and upload it to github."
