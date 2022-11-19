@@ -130,6 +130,13 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+while (acresLeft > 0){
+    acresLeft -= 9
+    days += 1
+}
+console.log(days)
+
+// EXTRA CREDIT: By creating a while look you are able to Minus acres from acresLeft and add to days fairly simple. You need the -= to minus and the += to add. This look runs until the acresLeft variable is at zero. Console.log then shows that it would take 20 days.
 
 
 
