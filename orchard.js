@@ -252,12 +252,20 @@ console.log(pinkPounds)
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+let fujiProfit = fujiPounds * .89
+let galaProfit = galaPounds * .64
+let pinkProfit = pinkPounds * .55
+
+fujiProfit /= 100
+galaProfit /= 100
+pinkProfit /= 100
+
+console.log(`${fujiProfit} Dollars`)
+console.log(`${galaProfit} Dollars`)
+console.log(`${pinkProfit} Dollars`)
 
 
-
+// EXTRA CREDIT: I started this code with making the profit variables === the total pounds * the amount of cents each pound was worth. I then converted the cents to dollars bye dividing each profit amount by 100.
 
 
 
