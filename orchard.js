@@ -52,15 +52,15 @@ const pinkPrice = .55
 // CODE HERE
 let totalAcres = 0
 
-for (var i = 0;  i < fujiAcres.length; i++){
+for (let i = 0;  i < fujiAcres.length; i++){
     totalAcres += fujiAcres[i]
 }
 
-for (var i = 0; i < galaAcres.length; i++){
+for (let i = 0; i < galaAcres.length; i++){
     totalAcres += galaAcres[i]
 }
 
-for (var i = 0; i < pinkAcres.length; i++){
+for (let i = 0; i < pinkAcres.length; i++){
     totalAcres += pinkAcres[i]
 }
 console.log(totalAcres)
@@ -166,12 +166,27 @@ console.log(days)
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons = fujiAcres.slice(0, 7)
+let galaTons = galaAcres.slice(0, 7)
+let pinkTons = pinkAcres.slice(0, 7)
+
+for (let i = 0; i < fujiTons.length; i++){
+    fujiTons[i] *= 6.5
+}
+console.log(fujiTons)
+
+for (let i = 0; i < galaTons.length; i++){
+    galaTons[i] *= 6.5
+}
+console.log(galaTons)
+
+for (let i = 0; i < pinkTons.length; i++){
+    pinkTons[i] *= 6.5
+}
+console.log(pinkTons)
 
 
-
+// EXTRA CREDIT: I started this problem by using .slice to make copies of each array. I then did for-loops to times each number in the array by 6.5 to figure out the total numbers of tons that were picked each day.
 
 
 
