@@ -260,9 +260,9 @@ fujiProfit /= 100
 galaProfit /= 100
 pinkProfit /= 100
 
-console.log(`${fujiProfit} Dollars`)
-console.log(`${galaProfit} Dollars`)
-console.log(`${pinkProfit} Dollars`)
+console.log(`${fujiProfit} Dollars!`)
+console.log(`${galaProfit} Dollars!`)
+console.log(`${pinkProfit} Dollars!`)
 
 
 // EXTRA CREDIT: I started this code with making the profit variables === the total pounds * the amount of cents each pound was worth. I then converted the cents to dollars bye dividing each profit amount by 100.
@@ -280,3 +280,10 @@ console.log(`${pinkProfit} Dollars`)
 */
 
 // CODE HERE
+
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+
+console.log(`${totalProfit} Dollars!`)
+
+
+// EXTRA CREDIT: I found out the total profit by setting totalProfit === all the other variables profits added together. This has been converted to Dollars from the code at problem 6.
