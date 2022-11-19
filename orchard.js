@@ -66,6 +66,8 @@ for (var i = 0; i < pinkAcres.length; i++){
 console.log(totalAcres)
 
 
+// EXTRA CREDIT: For this problem I first started by creating a variable to add all the acres to. I then made a for-loop for each individual array to add all of the numbers in the array together. After accessing each arrays totals I then added them all to the new array. Console.log at the end to show the totals.
+
 
 
 
@@ -82,6 +84,14 @@ console.log(totalAcres)
 */
 
 // CODE HERE
+let averageDailyAcres = totalAcres / 7
+
+
+console.log(averageDailyAcres)
+
+
+// EXTRA CREDIT: This problem takes a lot less code to solve. I was able to put it all on one line by creating the variable averageDailyAcres and setting it equal to the totalAcres variable and dividing it by 7. For each day of the week.
+
 
 
 
