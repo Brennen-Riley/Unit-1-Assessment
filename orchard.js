@@ -208,11 +208,28 @@ console.log(pinkTons)
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+let fujiPounds = 0
+let galaPounds = 0
+let pinkPounds = 0
+
+for (let i = 0; i < fujiTons.length; i++){
+    fujiPounds += fujiTons[i] *= 2000
+}
+console.log(fujiPounds)
+
+for (let i = 0; i < galaTons.length; i++){
+    galaPounds += galaTons[i] *= 2000
+}
+console.log(galaPounds)
+
+for (let i = 0; i < pinkTons.length; i++){
+    pinkPounds += pinkTons[i] *= 2000
+}
+console.log(pinkPounds)
 
 
+
+// EXTRA CREDIT: I started by making all the variables to 0. I ran for-loops for each individual variable and made them equal to the applesTons and *= by 2000 to come up with the Pounds each variable had in the week.
 
 
 
